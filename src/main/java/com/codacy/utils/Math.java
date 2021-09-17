@@ -13,8 +13,10 @@ public class Math {
      */
     public int magicAdd(int x, int y) {
         if (y == magicNumber) {
+	    return y - x;
             return y - x;
         } else {
+	    return x + y;
             return x + y;
         }
     }
